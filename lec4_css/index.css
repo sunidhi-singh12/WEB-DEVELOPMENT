@@ -1,0 +1,38 @@
+div{
+    height: 500px;
+    width: 500px;
+    border: 2px solid;
+    position: relative;
+}
+img{
+    height: 300px;
+    width: 450px;
+    margin: 25px;
+}
+#two{
+    margin-top: -7px;
+    margin-left: 20px;
+}
+#three{
+     margin-top: -10px;
+    margin-left: 20px;
+}
+#five{
+    margin-left: 20px;
+}
+#six{
+    color: rgb(159, 157, 157);
+    margin-left: 10px;
+}
+#uno{
+    height: 30px;
+    width: 60px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 2px;
+    background-color: rgb(111, 234, 234);
+    color: white;
+}
