@@ -1,0 +1,84 @@
+.one{ 
+    display: flex;
+}
+#div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image:linear-gradient(red,blue);
+}
+#uno{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 5px;
+    background-image: linear-gradient(to right,red,blue);
+}
+#dos{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 5px;
+    background-image: linear-gradient(to left,red,blue);
+}
+#tres{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 5px;
+    background-image: linear-gradient(to top,red,blue);
+}
+
+#quadro{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 5px;
+    background-image: linear-gradient(40deg,red,blue);
+}
+.two{
+    display: flex;
+    margin-top: 30px;
+}
+#myDiv{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: radial-gradient(circle, pink,blue);
+}
+#iDiv{
+     height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: radial-gradient(pink 4%,blue);
+}
+#yourDiv{
+     height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: radial-gradient(pink,blue);
+}
+#herDiv{
+     height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background: conic-gradient(
+   red 6deg,
+   orange 6deg 18deg,
+   yellow 18deg 45deg,
+   green 45deg 110deg,
+   blue 110deg 200deg,
+   purple 200deg
+);
+}
+#hisDiv{
+     height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background: conic-gradient(
+        /* from 0.25turn at 50% 30%, */
+        red 10deg,
+        #3f87a6 40deg,
+         #c0d2b2 20deg
+    );
+}

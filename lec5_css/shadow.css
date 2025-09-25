@@ -1,0 +1,24 @@
+h1{
+    text-shadow: 2px 2px 4px pink, 4px 5px 6px yellow;/*this is for multiple shadow*/
+
+}
+#div{
+    height: 200px;
+    width: 200px;
+    background-color: crimson; 
+    box-shadow:
+     0 0 0 2em aqua,
+     0 0 0 3em blue;
+    /* box-shadow: -10px -10px 10px aqua ;by adding negative value to the px we can shift the shadow to the opposite side */
+}
+#one{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(216, 63, 89);
+    
+    box-shadow:
+    0 0 0 2em #f4aab9,
+    0 0 0 3em #66ccff;
+  margin: 4em;
+  padding: 1em;
+}

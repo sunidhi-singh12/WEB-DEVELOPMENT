@@ -1,0 +1,19 @@
+#myDiv{
+    height: 100px;
+    border: 1px solid;
+    overflow: scroll;
+}
+#two{
+    /* height: 100px; */
+    border: 1px solid black; /*here in min-height the height of the box is fit but if increase content of the box then it will increase as per the need*/
+    min-height: 200px;
+}
+#three{
+    height: 100px;
+    border: 1px solid black;
+    /* overflow:hidden; */
+    /* overflow: hidden visible; */
+    /* overflow: visible; */
+    overflow: auto;/*it will auto scroll*/
+    overflow: clip;/*the content will be visible as hidden but will not scroll-down*/
+}
