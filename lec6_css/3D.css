@@ -1,0 +1,19 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 15px;
+}
+.static{
+  background-color: crimson;
+  
+}
+.translated{
+    background-color: aqua;
+    transform: perspective(10px) translateZ(-50px); /*perspective means Z axis me kitni growth h*/
+}
+.scaled{
+   background-color: rgb(215, 238, 168);
+   transform: perspective(350px) scaleZ(6) rotateX(45deg) rotateY(45deg);
+   margin-left: 200px;
+}

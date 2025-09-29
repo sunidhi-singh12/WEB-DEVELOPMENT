@@ -1,0 +1,32 @@
+.uno{
+    height: 1100px;
+    width: 100vw;
+    background-color: yellow;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    
+}
+#one{
+    background-color: pink;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+#two{
+    background-color: rgb(134, 8, 29);
+    /* position: fixed; */
+    top: 50px;
+}
+#three{
+    background-color: rgb(247, 7, 47);
+    position: sticky;
+    top: 0px;
+}
+#four{
+    background-color: rgb(146, 100, 107);
+    position: relative;
+}
