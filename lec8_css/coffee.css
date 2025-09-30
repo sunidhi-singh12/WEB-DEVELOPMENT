@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(218, 207, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{
+    height: 350px;
+    width: 600px;
+    /* background-color: rgb(160, 21, 44); */
+    display: flex;
+    /* border-radius: 20px; */
+}
+#box1{
+    height: 100%;
+    width: 40%;
+    background-color: pink;
+    background-image: url(coffee.png);
+    background-size: contain;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#box2{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:60px;
+    margin-top: 20px;
+    color: gray;
+}
+h1{
+    margin-left: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: green;
+    margin: 15px;
+}
+h4{
+    color: gray;
+}
+p{
+    color: gray;
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+#button{
+    height: 30px;
+    width: 250px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-align: calc(2);
+    margin-left: 40px;
+    margin-top: 60px;
+}
+#button:hover{
+    background-color: rgb(48, 11, 11);
+}
